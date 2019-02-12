@@ -2,19 +2,22 @@
 
 Environment setup
 
-1. Install ROS
+1. Install ROS.
 
-2. Run catkin_make under catkin_ws directory to build the package
+2. Run catkin_make under catkin_ws directory to build the package.
 
-3. Automate sourcing “setup.bash” file (https://answers.ros.org/question/206876/how-often-do-i-need-to-source-setupbash/). You can manually source the setup file each time you open a new terminal, but automation just makes things easier
+3. Automate sourcing “setup.bash” file (https://answers.ros.org/question/206876/how-often-do-i-need-to-source-setupbash/). You can manually source the setup file each time you open a new terminal, but automation just makes things easier.
 
-4. open a new terminal, cd to the project directory, install three required modules by typing the following commands:
+4. Open a new terminal, cd to the project directory, install three required modules by typing the following commands:
     pip install bitarray
     pip install networkx
     pip install Task
 
+5. Open a new terminal, type `roscore` to start the server.
 
-Follow these two steps to run auction-based task allocation algorithm.
+
+
+Follow these two steps to run auction-based task allocation algorithm:
 
 1. generate precedence graph 
 
